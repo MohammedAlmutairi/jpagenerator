@@ -13,6 +13,7 @@ import java.io.File;
  */
 public class GameGenerateTable { 
    public static void main(String[] args) {
+       int x = 0;
         File file = new File("D:\\JPAGenerator\\src\\main\\resources\\example.txt");
          new JPAGenerator().generateJPA(file);
     }
