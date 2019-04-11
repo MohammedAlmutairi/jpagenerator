@@ -1,0 +1,8 @@
+#src=D:\NBProbject\names-game-server\src\main\java
+#package=names.game.domain.model
+
+Question :1:m: Answer -> question
+Stage :1:m: Question -> game
+Game :1:m: Stage  -> game
+Game :1:m: Player -> player
+
